@@ -1,5 +1,4 @@
---// Have fun pasting, made the code extra messy just for you 😁
---// Made by @dementia enjoyer
+--// developed by @polarsense
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "intellect", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
