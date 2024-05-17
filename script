@@ -117,7 +117,7 @@ do --// Properties & Rest
         TextLabel.Position = UDim2.new(0, 0, 0.0857142881, 0)
         TextLabel.Size = UDim2.new(1, 0, 0.914285719, 0)
         TextLabel.Font = Enum.Font.RobotoMono
-        TextLabel.Text = "intellect | made by @dementia enjoyer"
+        TextLabel.Text = "intellect [private]"
         TextLabel.TextColor3 = Color3.fromRGB(247, 247, 247)
         TextLabel.TextSize = 12.000
         TextLabel.TextWrapped = true
@@ -132,8 +132,8 @@ do --// Main
     do --// Notifications
 
         OrionLib:MakeNotification({
-            Name = "whats good buddy",
-            Content = "Enjoy the script! and if you decide pasting, i made the code extra messy just for you!",
+            Name = "Intellect [Private]",
+            Content = "Script loaded!",
             Time = 5
         })
         
@@ -290,7 +290,7 @@ do --// Main
             })
 
             Tabs.MiscTab:AddToggle({
-                Name = "BHop",
+                Name = "Bhop",
                 Default = false,
                 Callback = function(Value)
                     FeatureTable.Misc.Bhop = Value
